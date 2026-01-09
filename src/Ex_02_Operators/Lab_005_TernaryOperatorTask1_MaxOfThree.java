@@ -1,6 +1,6 @@
-package Ex_02_TernaryOperators;
+package Ex_02_Operators;
 
-public class Lab_005_Task1 {
+public class Lab_005_TernaryOperatorTask1_MaxOfThree {
     public static void main(String[] args) {
         int n1 = 2;
         int n2 = 9;

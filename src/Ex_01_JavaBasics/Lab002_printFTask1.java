@@ -1,6 +1,6 @@
 package Ex_01_JavaBasics;
 
-public class Lab002_printF {
+public class Lab002_printFTask1 {
     public static void main (String[] args){
         int number = 9;
 

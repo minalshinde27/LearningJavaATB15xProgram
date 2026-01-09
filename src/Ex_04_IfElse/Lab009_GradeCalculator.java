@@ -1,4 +1,4 @@
-package Ex_04_IfElseFor;
+package Ex_04_IfElse;
 
 import java.util.Scanner;
 

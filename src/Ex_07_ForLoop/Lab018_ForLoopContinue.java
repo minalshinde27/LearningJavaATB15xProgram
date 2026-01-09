@@ -1,9 +1,9 @@
-package Ex_04_IfElseFor;
+package Ex_07_ForLoop;
 
-public class Lab019_ForContinueEvenNumbers {
+public class Lab018_ForLoopContinue {
     public static void main (String[] args){
-        for (int i=0; i<=50; i++){
-            if (i%2 != 0){
+        for (int i=0; i<10; i++){
+            if(i==5){
                 continue;
             }
             System.out.println(i);

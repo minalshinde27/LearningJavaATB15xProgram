@@ -5,6 +5,11 @@ public class Lab010_mainMethod {
         System.out.println("Valid main method");
     }
 
+//    public static void Main (String[] args){
+//        System.out.println("Valid main method");
+//    }
+//    'M' in main should be always small
+
 //    public static void main (String[] selenium){
 //        System.out.println("Valid main method");
 //    }

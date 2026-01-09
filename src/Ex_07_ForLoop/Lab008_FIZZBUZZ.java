@@ -1,4 +1,4 @@
-package Ex_04_IfElseFor;
+package Ex_07_ForLoop;
 
 public class Lab008_FIZZBUZZ {
     public static void main (String[] args){
