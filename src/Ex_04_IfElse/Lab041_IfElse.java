@@ -19,7 +19,13 @@ public class Lab041_IfElse {
         } else {
             System.out.println("hoho");
         }
+///   ///
 
+        int a1=10;
+        if(a1==9)
+            System.out.println("OK ");
+            //System.out.println("MASTER");
+        else System.out.println("BYE");
 
     }
 }

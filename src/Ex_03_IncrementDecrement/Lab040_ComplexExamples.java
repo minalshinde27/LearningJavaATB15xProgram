@@ -22,5 +22,9 @@ public class Lab040_ComplexExamples {
         int result_post = d--;
         System.out.println(result_post); // 10
         System.out.println(d); //9
+
+        int x = 10;
+        int y = x++ + ++x + --x + x--;  //10+12+11+11
+        System.out.println(y);
     }
 }

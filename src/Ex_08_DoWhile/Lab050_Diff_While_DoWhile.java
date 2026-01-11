@@ -8,10 +8,12 @@ public class Lab050_Diff_While_DoWhile {
             a++;
         }
 
-        do{
+        do {
             System.out.println("DoWhileExecuted");
             a++;
 
-        }while (a<0);
-    }
-}
+        } while (a < 0);
+
+        int b, c; int a1 = b = c = 88; System.out.println(a);
+        System.out.println(b); System.out.println(c);
+    }}

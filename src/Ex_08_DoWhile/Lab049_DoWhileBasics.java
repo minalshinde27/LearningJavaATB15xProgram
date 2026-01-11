@@ -1,7 +1,6 @@
 package Ex_08_DoWhile;
 
 public class Lab049_DoWhileBasics {
-    public class Lab125_DoWhile {
         public static void main(String[] args) {
             int a = 1;
             do {
@@ -9,6 +8,16 @@ public class Lab049_DoWhileBasics {
                 a++;
             }
             while (a < 10);
+
+
+/// ////////
+
+            char ch[] = {'A', 'B', 'C'};
+            int i=0;
+            do { System.out.print(ch[i] + ",");
+                i++; }
+            while(i < ch.length);
+
         }
     }
-}
+
