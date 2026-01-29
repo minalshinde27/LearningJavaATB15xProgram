@@ -10,11 +10,11 @@ public class Lab082_RightAlignedTriangle {
         System.out.println("Enter value of N");
         int n = scanner.nextInt();
 
-        for (int i =0; i<n; i++){
-            for (int space=0; space<n-i-1; space++){
+        for (int row=1; row<=n; row++){
+            for (int space=1; space<=n-row; space++){
                 System.out.print(" ");
             }
-            for (int star=0; star<=i; star++){
+            for (int star=1; star<=row; star++){
                 System.out.print("*");
             }
             System.out.println();

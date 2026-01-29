@@ -10,8 +10,8 @@ public class Lab081_RightTriangle {
         System.out.println("Enter value of N");
         int n = scanner.nextInt();
 
-        for (int i=1; i<=n; i++) {
-            for (int j=1; j<=i; j++) {
+        for(int row=0; row<n; row++){
+            for (int star=0; star<=row; star++){
                 System.out.print("*");
             }
             System.out.println();
