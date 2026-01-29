@@ -1,4 +1,4 @@
-package Ex_12_OOPs.InheritanceConcept.MultilevelInheritance;
+package Ex_12_OOPs.Lab090_InheritanceConcept.SingleInheritance;
 
 public class Son extends Father{
     void myHome(){

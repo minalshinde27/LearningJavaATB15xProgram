@@ -1,4 +1,4 @@
-package Ex_12_OOPs.InheritanceConcept.MultilevelInheritance;
+package Ex_12_OOPs.Lab090_InheritanceConcept.MultilevelInheritance;
 
 public class MultilevelInheritance {
     public static void main() {
