@@ -1,6 +1,6 @@
 package Ex_15_MultiThreading;
 
-public class Lab132_TreadActions {
+public class Lab132_ThreadActions {
     //  Thread Group and Name
 
     public static void main(String[] args) throws InterruptedException {
