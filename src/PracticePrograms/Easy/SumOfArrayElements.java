@@ -1,8 +1,8 @@
-package PracticePrograms;
+package PracticePrograms.Easy;
 
 import java.util.Scanner;
 
-public class ArraySum {
+public class SumOfArrayElements {
     public static void main() {
         System.out.println("Start of Program");
 

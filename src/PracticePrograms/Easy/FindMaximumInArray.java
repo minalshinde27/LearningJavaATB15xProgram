@@ -1,4 +1,4 @@
-package PracticePrograms;
+package PracticePrograms.Easy;
 
 import java.util.Scanner;
 
@@ -31,7 +31,7 @@ public class FindMaximumInArray {
                 }
             }
 
-            System.out.println("Array elements are : ");
+            System.out.print("Array elements are : ");
             for(int arr : array){
                 System.out.print(arr+" ");
             }

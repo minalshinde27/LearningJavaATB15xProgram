@@ -1,4 +1,4 @@
-package PracticePrograms;
+package PracticePrograms.Easy;
 
 public class HelloWorld {
     public static void main() {

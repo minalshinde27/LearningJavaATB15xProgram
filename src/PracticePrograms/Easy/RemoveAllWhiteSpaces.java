@@ -1,4 +1,4 @@
-package PracticePrograms;
+package PracticePrograms.Easy;
 
 import java.util.Scanner;
 
@@ -13,8 +13,9 @@ public class RemoveAllWhiteSpaces {
 
         if(scanner.hasNext()){
             String inputString = scanner.nextLine();
+            System.out.println("Received string is : "+inputString);
             inputString = inputString.replace(" ","");
-            System.out.println(inputString);
+            System.out.println("Updated string is : "+inputString);
         }
         else {
             System.out.println("Please provide valid string..");

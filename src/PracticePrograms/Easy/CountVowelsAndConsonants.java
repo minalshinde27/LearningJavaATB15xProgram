@@ -1,6 +1,5 @@
-package PracticePrograms;
+package PracticePrograms.Easy;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 public class CountVowelsAndConsonants {
@@ -17,8 +16,8 @@ public class CountVowelsAndConsonants {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Provide string to validate");
         if(scanner.hasNext()){
-            System.out.println("Provide string to validate");
             inputString = scanner.nextLine();
             System.out.println("Original String : "+inputString);
 
@@ -38,8 +37,8 @@ public class CountVowelsAndConsonants {
                 }
             }
             System.out.println("Number of vowels in provided string is : "+numberOfVowels);
-            System.out.println("Number of vowels in provided string is : "+numberOfConsonants);
-            System.out.println("Number of vowels in provided string is : "+numberOfOther);
+            System.out.println("Number of consonants in provided string is : "+numberOfConsonants);
+            System.out.println("Number of other characters in provided string is : "+numberOfOther);
 
         }
         else {

@@ -1,4 +1,4 @@
-package PracticePrograms;
+package PracticePrograms.Easy;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class FirstLetterOfEachWord {
             System.out.println("Received string is : "+inputString);
 
             String[] stringArray = inputString.split(" ");
-            System.out.println("Elements of string array are : ");
+            System.out.print("Elements of string array are : ");
 
             for(String e : stringArray){
                 System.out.print(e+", ");

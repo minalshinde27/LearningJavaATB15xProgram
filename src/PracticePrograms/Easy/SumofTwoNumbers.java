@@ -1,4 +1,4 @@
-package PracticePrograms;
+package PracticePrograms.Easy;
 
 import java.util.Scanner;
 
@@ -14,13 +14,17 @@ Output Format: A single integer representing the sum
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Enter first number");
         if(scanner.hasNextInt()){
             int number1 = scanner.nextInt();
 
+            System.out.println("Enter second number");
             if(scanner.hasNextInt()){
                 int number2 = scanner.nextInt();
 
-                System.out.println(number1+number2);
+                int sum = number1+number2;
+                System.out.printf("Sum of given two numbers %d, %d is %d", number1, number2, sum);
+                System.out.println();
             }
             else {
                 System.out.println("Provide valid integer as Number2");

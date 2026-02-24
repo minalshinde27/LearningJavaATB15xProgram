@@ -1,4 +1,4 @@
-package PracticePrograms;
+package PracticePrograms.Easy;
 
 import java.util.Scanner;
 
@@ -11,16 +11,18 @@ public class CountWordsInString {
 
         Scanner scanner = new Scanner(System.in);
 
+        System.out.println("Enter the string");
         if(scanner.hasNext()){
             String inputString = scanner.nextLine();
             System.out.println("Received String is : "+inputString);
 
             String[] inputStringWords = inputString.split(" ");
-            System.out.println("Words in the received string are : ");
+            System.out.print("Words in the received string are : ");
 
             for(String word : inputStringWords){
-                System.out.println(word+" ");
+                System.out.print(word+", ");
             }
+            System.out.println();
             System.out.println("Number of words in the string is : "+inputStringWords.length);
         }
         else {

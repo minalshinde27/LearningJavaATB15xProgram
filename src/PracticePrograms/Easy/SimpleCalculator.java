@@ -1,4 +1,4 @@
-package PracticePrograms;
+package PracticePrograms.Easy;
 
 import java.util.Scanner;
 
@@ -31,17 +31,17 @@ Output Format: Result of the operation
                             operator.equals("*") || operator.equals("/")){
                     switch (operator) {
                         case "+" :
-                            System.out.println(number1+number2);
+                            System.out.printf("Addition of two numbers %d, %d is %d",number1, number2, number1+number2);
                             break;
                         case "-" :
-                            System.out.println(number1-number2);
+                            System.out.printf("Addition of two numbers %d, %d is %d",number1, number2, number1-number2);
                             break;
                         case "*" :
-                            System.out.println(number1*number2);
+                            System.out.printf("Addition of two numbers %d, %d is %d",number1, number2, number1*number2);
                             break;
                         case "/" :
                             if (number2!=0)
-                            {System.out.println(number1/number2);}
+                            {System.out.printf("Addition of two numbers %d, %d is %d",number1, number2, number1/number2);}
                             else {
                                 System.out.println("Division by 0 is not allowed");}
                             break;
@@ -62,6 +62,7 @@ Output Format: Result of the operation
         else {
             System.out.println("Provide valid integer as number1");
         }
+        System.out.println();
         System.out.println("End of Program");
 }
 }
